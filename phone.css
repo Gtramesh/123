@@ -1,0 +1,42 @@
+body{
+    background-color: red;
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size:0.8rem;
+    padding:3px 7px;
+}
+#home{
+    height:328px;
+    padding:3px 50px;
+    color: black;
+}
+#home::before{
+    height:458px;
+}
+#home p{
+    font-size:13px;
+    line-height:100%;
+}
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+    padding:25px;
+    margin:2px;
+    margin-bottom:20px;
+
+}
+#products{
+    flex-wrap: wrap;
+}
+#products img{
+    width:85px;
+    height:auto;
+}
+#contact-box form{
+    width:80%;
+}
